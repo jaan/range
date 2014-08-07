@@ -13,10 +13,11 @@ It provides a range in this pattern
 1000-10000
 10000-100000 .....
 
+```
 range.logarithmicRange(10)--> 10-100
 range.logarithmicRange(10,",")--> 10,100
 range.logarithmicRange(121)--> 100-1000
-
+```
 Custom Step Range
 It provides a range in this custom pattern based on your steps
 If the step value is 25, then pattern is
@@ -26,9 +27,10 @@ If the step value is 25, then pattern is
 75-100
 100-125 ....
 
+```
 range.customRange(25,10)--> 0-25
 range.customRange(25,10,",")--> 0,25
 range.customRange(121)--> 100-125
-
+```
 
 
