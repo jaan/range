@@ -1,13 +1,12 @@
 Range
 =====
 
-A javascript library to get the range of a given number and enables easier grouping of the numbers.
+A Javascript library to get the range of a given number and enables easier grouping of the numbers.
 
-WORK IN PROGRESS
+**Note: This code is Work in progress**
 
-Logarithmic Range:
-
-It provides a range in this pattern
+###Logarithmic Range:
+It provides a range in this pattern  
 ```
 0-10
 10-100
@@ -20,8 +19,8 @@ range.logarithmicRange(10)--> 10-100
 range.logarithmicRange(10,",")--> 10,100
 range.logarithmicRange(121)--> 100-1000
 ```
-Custom Step Range
-It provides a range in this custom pattern based on your steps
+###Custom Step Range:
+It provides a range in this custom pattern based on your steps  
 If the step value is 25, then pattern is
 ```
 0-25
