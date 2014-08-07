@@ -13,7 +13,7 @@
       },
       getDigits : function(num){
         //get the digits, similar to Math.floor
-        var digits = ~~(Math.log(number) / Math.LN10 + 1);
+        var digits = ~~(Math.log(num) / Math.LN10 + 1);
         return digits;
       }
 
