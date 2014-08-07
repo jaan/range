@@ -3,7 +3,7 @@ Range
 
 A javascript library to get the range of a given number and enables easier grouping of the numbers.
 
-<<WORK IN PROGRESS>>
+WORK IN PROGRESS
 
 Logarithmic Range
 It provides a range in this pattern
