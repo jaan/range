@@ -2,6 +2,7 @@ Range
 =====
 
 A Javascript library to get the range of a given number and it also enables the easier grouping of the numbers.
+Range Separator is optional, default separator is "-"
 
 **Note: This code is Work in progress**
 
@@ -15,6 +16,8 @@ It provides a range in this pattern
 10000-100000 .....
 ```
 ```
+logarithmicRange(YourNumber, Separator);
+
 range.logarithmicRange(10)--> 10-100
 range.logarithmicRange(10,",")--> 10,100
 range.logarithmicRange(121)--> 100-1000
@@ -30,6 +33,8 @@ If the step value is 25, then pattern is
 100-125 ....
 ```
 ```
+customRange(InputStepSize, YourNumber, Separator);
+
 range.customRange(25,10)--> 0-25
 range.customRange(25,10,",")--> 0,25
 range.customRange(121)--> 100-125
