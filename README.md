@@ -1,7 +1,7 @@
 Range
 =====
 
-A Javascript library to get the range of a given number and enables easier grouping of the numbers.
+A Javascript library to get the range of a given number and it also enables the easier grouping of the numbers.
 
 **Note: This code is Work in progress**
 
@@ -20,7 +20,7 @@ range.logarithmicRange(10,",")--> 10,100
 range.logarithmicRange(121)--> 100-1000
 ```
 ###Custom Step Range:
-It provides a range in this custom pattern based on your steps  
+It provides a range in this custom pattern based on your input steps  
 If the step value is 25, then pattern is
 ```
 0-25
