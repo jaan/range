@@ -40,4 +40,10 @@ range.customRange(25,10,",")--> 0,25
 range.customRange(121)--> 100-125
 ```
 
+###Updates/Bugs:
+Feel free to provide a pull request.
+
+###License
+Freeee.
+
 
